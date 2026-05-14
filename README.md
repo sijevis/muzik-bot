@@ -131,6 +131,21 @@ Tam fonksiyonalite için aşağıdaki servislerden API anahtarı alabilirsiniz. 
 | Google Gemini | Alternatif LLM | [aistudio.google.com](https://aistudio.google.com/app/apikey) |
 | Firebase | Kullanıcı kimlik doğrulama | [console.firebase.google.com](https://console.firebase.google.com) |
 
+### 🔒 Güvenlik Notu
+
+> **`.env` dosyaları ve API anahtarları güvenlik gerekçesiyle bu repoya dahil edilmemiştir.**
+>
+> Projeyi çalıştırmak için aşağıdaki adımları izleyin:
+>
+> 1. `backend/.env.example` dosyasını `backend/.env` olarak kopyalayın
+> 2. `frontend/.env.example` dosyasını `frontend/.env` olarak kopyalayın
+> 3. Kendi API anahtarlarınızı bu dosyalara ekleyin
+> 4. Firebase için: `firebase-credentials.json` dosyanızı `backend/` klasörüne koyun
+>
+> ⚠️ **API anahtarlarınızı asla `.env` dosyasının dışında bir yere yazmayın ve commit etmeyin.** `.gitignore` dosyası bu hassas dosyaları otomatik olarak engeller.
+>
+> 💡 API anahtarı olmadan da uygulama **Demo Modu**'nda tam fonksiyonel çalışır (278 şarkılık yerel veri seti ile).
+
 ## 📊 Performans Metrikleri
 
 | Metrik | Değer |
