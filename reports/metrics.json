@@ -1,0 +1,215 @@
+{
+  "dataset": {
+    "total_songs": 278,
+    "total_genres": 39,
+    "total_moods": 10,
+    "total_activities": 18,
+    "unique_artists": 96,
+    "top_10_genres": {
+      "rock": 56,
+      "pop": 46,
+      "rap": 30,
+      "turkce_rock": 27,
+      "turkce_pop": 24,
+      "indie": 19,
+      "metal": 17,
+      "elektronik": 15,
+      "arabesk": 15,
+      "soul": 14
+    },
+    "language_distribution": {
+      "en": 188,
+      "es": 1,
+      "tr": 89
+    },
+    "top_10_moods": {
+      "enerjik": 118,
+      "mutlu": 85,
+      "sakin": 66,
+      "melankolik": 59,
+      "uzgun": 59,
+      "romantik": 55,
+      "sinirli": 41,
+      "nostaljik": 39,
+      "motivasyon": 30,
+      "epik": 10
+    },
+    "top_10_activities": {
+      "gece": 121,
+      "araba": 88,
+      "parti": 73,
+      "spor": 71,
+      "yagmur": 52,
+      "gym": 29,
+      "kahve": 27,
+      "yazlik": 18,
+      "ders": 15,
+      "sabah": 10
+    },
+    "decade_distribution": {
+      "1720": 1,
+      "1810": 1,
+      "1900": 1,
+      "1930": 1,
+      "1950": 6,
+      "1960": 11,
+      "1970": 41,
+      "1980": 18,
+      "1990": 42,
+      "2000": 69,
+      "2010": 78,
+      "2020": 9
+    },
+    "top_10_artists": {
+      "Sezen Aksu": 8,
+      "Travis Scott": 6,
+      "Kanye West": 6,
+      "Daft Punk": 6,
+      "John Legend": 6,
+      "Tarkan": 6,
+      "Sebnem Ferah": 6,
+      "Queen": 5,
+      "Eagles": 5,
+      "Nirvana": 5
+    }
+  },
+  "intent_classification": {
+    "overall_accuracy": 97.5,
+    "total_pass": 39,
+    "total_fail": 1,
+    "by_category": {
+      "genre": {
+        "pass": 14,
+        "fail": 1,
+        "accuracy": 93.33
+      },
+      "mood": {
+        "pass": 8,
+        "fail": 0,
+        "accuracy": 100.0
+      },
+      "activity": {
+        "pass": 7,
+        "fail": 0,
+        "accuracy": 100.0
+      },
+      "artist": {
+        "pass": 4,
+        "fail": 0,
+        "accuracy": 100.0
+      },
+      "greeting": {
+        "pass": 3,
+        "fail": 0,
+        "accuracy": 100.0
+      },
+      "playlist": {
+        "pass": 3,
+        "fail": 0,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "turkish_suffix": {
+    "accuracy": 86.67,
+    "pass": 13,
+    "fail": 2,
+    "total_tests": 15
+  },
+  "song_relevance": {
+    "average_relevance": 100.0,
+    "by_genre": [
+      {
+        "Tur": "Rock",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Pop",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Rap / Hip-Hop",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Lo-fi",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Arabesk",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Jazz",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Klasik Müzik",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Metal",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Elektronik",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Türkçe Pop",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Türkçe Rap",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      },
+      {
+        "Tur": "Indie",
+        "Onerilen": 3,
+        "Alakali": 3,
+        "Alaka (%)": 100.0
+      }
+    ]
+  },
+  "performance": {
+    "avg_response_time_ms": 2067.93,
+    "min_response_time_ms": 2050.07,
+    "max_response_time_ms": 2083.87,
+    "median_response_time_ms": 2066.48,
+    "p95_response_time_ms": 2082.95,
+    "successful_requests": 8,
+    "failed_requests": 0,
+    "success_rate": 100.0
+  },
+  "spotify_integration": {
+    "spotify_api_available": false,
+    "demo_mode": true,
+    "songs_with_spotify_url": 24,
+    "songs_without_spotify_url": 254,
+    "spotify_url_coverage_pct": 8.63
+  },
+  "generated_at": "2026-05-14T19:52:39.234117",
+  "report_version": "1.0"
+}

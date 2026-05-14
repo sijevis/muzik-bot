@@ -1,0 +1,136 @@
+# ==========================================
+# GIZLI / HASSAS DOSYALAR (ASLA COMMIT ETME!)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+frontend/.env
+firebase-credentials.json
+firebase-adminsdk-*.json
+*credentials*.json
+*-key.json
+*-secret.json
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+backend/venv/
+backend/.venv/
+
+# ==========================================
+# Node.js / React
+# ==========================================
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Production builds
+build/
+dist/
+.next/
+out/
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Misc
+.DS_Store
+.npm
+.eslintcache
+.parcel-cache
+.cache
+
+# ==========================================
+# Veritabani ve Loglar
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+muzikbot.db
+backend/muzikbot.db
+*.log
+backend/*.log
+backend/error.log
+backend/server.log
+backend/.cache
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ==========================================
+# OS
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==========================================
+# Reports (oturuma ozel)
+# ==========================================
+# reports/  -> Bunu commit etmek isteyebilirsin (yorumda birak)
+
+# ==========================================
+# Diger
+# ==========================================
+*.bak
+*.tmp
+*.temp
+.history/
+*.pid
+*.seed
+*.pid.lock
+
+# Local development
+local_data/
+*.local

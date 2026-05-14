@@ -1,0 +1,12 @@
+﻿endpoint,message,time_ms,status
+/api/chat,Rock muzik oner,2068.45,200
+/api/chat,Turkce pop dinleyecegim,2061.76,200
+/api/chat,Mutluyum,2066.6,200
+/api/chat,Spor yaparken dinleyecegim,2065.1,200
+/api/chat,Bana 5 sarkilik playlist yap,2066.36,200
+/api/chat,Lo-fi muzik istiyorum,2081.24,200
+/api/chat,Arabesk sarkilar oner,2083.87,200
+/api/chat,Sakinlesmek istiyorum,2050.07,200
+/api/categories,-,2018.73,200
+/api/status,-,2040.37,200
+/api/artists,-,2027.0,200

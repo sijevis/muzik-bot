@@ -1,0 +1,16 @@
+﻿Mesaj,Tip,Beklenen,Tahmin,Basarili
+Derse calisiyorum,activity,ders,ders,EVET
+Spora gidecegim,activity,spor,spor,EVET
+Uykum gelmiyor,activity,uyku,uyku,EVET
+Yolda gidiyorum,activity,yolculuk,yolculuk,EVET
+Mutluyum bugun,mood,mutlu,mutlu,EVET
+Uzgunum arkadasim,mood,uzgun,uzgun,EVET
+Enerjik hissediyorum,mood,enerjik,enerjik,EVET
+Sakinlesmek istiyorum,mood,sakin,sakin,EVET
+Geceye selam,activity,gece,gece,EVET
+Yagmurda yuruyorum,activity,yagmur,yagmur,EVET
+Rocku severim,genre,rock,,HAYIR
+Popu dinlerim,genre,pop,,HAYIR
+Romantik hissediyorum,mood,romantik,romantik,EVET
+Motivasyona ihtiyacim var,mood,motivasyon,motivasyon,EVET
+Calisirken dinleyecegim,activity,ders,ders,EVET
