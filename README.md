@@ -238,7 +238,7 @@ Bu proje akademik amaçlar için geliştirilmiştir.
 
 ## 👤 Geliştirici
 
-**Baran**
+**Baran Aktaş**
 
 ---
 
